@@ -1,2 +1,2 @@
-# CZ2003
-Lab exercises
+# CZ2003 Computer Graphics and Visualisation
+Lab exercises.
