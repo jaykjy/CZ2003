@@ -1,0 +1,20 @@
+mode 0
+definition "x=-((9-12*cos(2*pi*u))*cos(2*pi*u)-9)*sin(pi*v/9+3*pi/14);
+			y=(9-12*cos(2*pi*u))*sin(2*pi*u);
+			z=((9-12*cos(2*pi*u))*cos(2*pi*u)-9)*cos(pi*v/9+3*pi/14);
+			"
+parameters 0 1 0 1
+resolution 40 40
+diffuseColor 0 1 0
+backgroundColor 1 1 1
+axesColor 0 0 0
+SpecularColor 1 1 1
+Transparency 0
+Shininess 1
+Timecycle 1
+Timerange 0 1
+axesScale 1 1 1
+cameraPosition 142.679 -68.49998 38.90019
+axesLabel X Y Z
+axes1 True
+axes2 False

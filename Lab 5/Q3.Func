@@ -1,0 +1,21 @@
+mode 0
+definition "time=1-abs(1-2*t/15);
+			x=(1-time)*cos(2*pi*u)*pow(sin(pi*v),3)+time*cos(2*pi*sin(pi*v));
+			y=(1-time)*sin(2*pi*u)*pow(sin(pi*v),3)+time*cos(2*pi*u)*sin(pi*v);
+			z=(1-time)*cos(pi*v)+time*sin(2*pi*u)*sin(pi*v);
+			"
+parameters 0 1 0 1
+resolution 30 30
+diffuseColor 1 0 1
+backgroundColor 1 1 1
+axesColor 0 0 0
+SpecularColor 1 1 1
+Transparency 0
+Shininess 1
+Timecycle 15
+Timerange 0 15
+axesScale 1 1 1
+cameraPosition 5.496993 319.8 17.89997
+axesLabel X Y Z
+axes1 False
+axes2 True

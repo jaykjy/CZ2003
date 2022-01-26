@@ -1,0 +1,19 @@
+mode 0
+definition "x=9*u*(1-w);
+			y=16*w;
+			z=7*v*(1-u)*(1-w);"
+parameters 0 1 0 1 0 1
+resolution 10 10 10
+diffuseColor 1 1 0
+backgroundColor 1 1 1
+axesColor 0 0 0
+SpecularColor 0.4 0.1 0.3
+Transparency 0
+Shininess 1
+Timecycle 1
+Timerange 0 1
+axesScale 1 1 1
+cameraPosition 84.22304 -40.99986 19.00005
+axesLabel X Y Z
+axes1 True
+axes2 False

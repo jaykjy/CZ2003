@@ -1,0 +1,21 @@
+mode 1
+definition "block=min(15-x,x+15,15-y,y+15,-z,z+10);
+			cosine=min(5*cos(2*pi*x/15)+5-z,15-x,x+15,z,15-y,y+15);
+			final=max(block,cosine);
+			return final;"
+bboxSize 30 30 30
+bboxCenter 0 0 0
+bboxResolution 50 50 50
+diffuseColor 0 1 1
+backgroundColor 1 1 1
+axesColor 0 0 0
+SpecularColor 0.4 0.1 0.3
+Transparency 0
+Shininess 1
+Timecycle 2
+Timerange 0 2
+axesScale 1 1 1
+cameraPosition 102.0306 -39.60001 26.19997
+axesLabel X Y Z
+axes1 True
+axes2 False

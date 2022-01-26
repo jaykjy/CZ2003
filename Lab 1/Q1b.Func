@@ -1,0 +1,18 @@
+mode 0
+definition "x=9*cos((17*pi/9)*u+(pi/9))+9;
+			y=9*sin((17*pi/9)*u+(pi/9))+7;"
+parameters 0 1
+resolution 30
+diffuseColor 1 0 0
+backgroundColor 1 1 1
+axesColor 0 0 0
+SpecularColor 0.4 0.1 0.3
+Transparency 0
+Shininess 1
+Timecycle 1
+Timerange 0 1
+axesScale 1 1 1
+cameraPosition 79.24757 -42.2 15.40002
+axesLabel X Y Z
+axes1 True
+axes2 False

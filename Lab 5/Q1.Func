@@ -1,0 +1,29 @@
+mode 0
+definition "if (t <= 10)
+			{
+			time=(10-t)*16*abs(cos(16*pi*t/10))+9;
+			x=9*cos(2*pi*u)*cos(pi*v);
+			y=9*sin(2*pi*u)+time;
+			z=9*cos(2*pi*u)*sin(pi*v);
+			}
+			else
+			{
+			x=9*cos(2*pi*u)*cos(pi*v);
+			y=9*sin(2*pi*u)+9;
+			z=9*cos(2*pi*u)*sin(pi*v);
+			}"
+parameters 0 1 0 1
+resolution 40 40 40
+diffuseColor 1 0 1
+backgroundColor 1 1 1
+axesColor 0 0 0
+SpecularColor 1 1 1
+Transparency 0
+Shininess 1
+Timecycle 15
+Timerange 0 15
+axesScale 1 1 1
+cameraPosition 415.6083 -45 9.399999
+axesLabel X Y Z
+axes1 True
+axes2 False

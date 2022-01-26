@@ -1,0 +1,19 @@
+mode 0
+definition "x=(16-7*v)*cos(2*pi*u)+9;
+			y=(16-7*v)*sin(2*pi*u)+7;
+			z=-9+16*w;"
+parameters 0 1 0 1 0 1
+resolution 20 20 20
+diffuseColor 1 1 0
+backgroundColor 1 1 1
+axesColor 0 0 0
+SpecularColor 0.4 0.1 0.3
+Transparency 0
+Shininess 1
+Timecycle 1
+Timerange 0 1
+axesScale 1 1 1
+cameraPosition 115.8319 -41.79999 19.39998
+axesLabel X Y Z
+axes1 True
+axes2 False

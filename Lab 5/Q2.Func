@@ -1,0 +1,20 @@
+mode 0
+definition "x=9*u*cos(2*pi*v)*cos(pi*t/30)-7*cos(pi*t/30)+7;
+			y=9*u*sin(2*pi*v);
+			z=-9*u*cos(2*pi*v)*sin(pi*t/30)+7*sin(pi*t/30);
+			"
+parameters 0 1 0 1
+resolution 30 30
+diffuseColor 1 0 1
+backgroundColor 1 1 1
+axesColor 0 0 0
+SpecularColor 1 1 1
+Transparency 0
+Shininess 1
+Timecycle 15
+Timerange 0 15
+axesScale 1 1 1
+cameraPosition 54.82896 -55.00003 5.300007
+axesLabel X Y Z
+axes1 False
+axes2 True

@@ -1,0 +1,24 @@
+mode 1
+definition "box=min(10-x,x+10,10-y,y+10,10-z,z+10);
+			cylinder1=min(25-x^2-y^2,10-z,z+10);
+			cylinder2=min(25-x^2-z^2,10-y,y+10);
+			cylinder3=min(25-y^2-z^2,10-x,x+10);
+			sphere=16-(x-10)^2-(y-10)^2-(z-10)^2;
+			final=max(min(box,-cylinder1,-cylinder2,-cylinder3),sphere);
+			return final;"
+bboxSize 30 30 30
+bboxCenter 0 0 0
+bboxResolution 70 70 70
+diffuseColor 0 1 1
+backgroundColor 1 1 1
+axesColor 0 0 0
+SpecularColor 0.4 0.1 0.3
+Transparency 0
+Shininess 1
+Timecycle 2
+Timerange 0 2
+axesScale 1 1 1
+cameraPosition 76.95712 -49.8 28.79998
+axesLabel X Y Z
+axes1 True
+axes2 False
